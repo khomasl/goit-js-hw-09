@@ -1,0 +1,37 @@
+{
+  "name": "goit-js-hw-09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "app": "node app.js",
+    "prestart": "echo \"this is prestart\"",
+    "poststart": "echo \"this is poststart\"",
+    "server": "node server.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khomasl/goit-js-hw-09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khomasl/goit-js-hw-09/issues"
+  },
+  "homepage": "https://github.com/khomasl/goit-js-hw-09#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.1",
+    "shortid": "^2.2.16",
+    "uuid.v4": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8"
+  }
+}
